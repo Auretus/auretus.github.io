@@ -6,32 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
-    <link href="assets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
 
 </head>
 
 <body>
-    <header class="clearFix">
-        <div class="headerBlock clearFix">
-            <div class="nameBlock">
-                <h1>Will Halstead</h1>
-            </div>
-            <div class="navBlock">
-                <p><a href="">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
-                </p>
-            </div>
+    <header class="container-fluid bg-light border-bottom border-dark">
+        <div class="container-lg p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+                <div class="d-flex flex-grow-1">
+                    <h1 class="navbar-brand d-none d-lg-inline-block bg-success text-light p-3 m-0" href="#">
+                        Will Halstead
+                    </h1>
+                    </a>
+                    <div class="w-100 text-right">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link m-2 menu-item nav-active">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portfolio.html" class="nav-link m-2 menu-item">Portfolio</a>
+                        </li>
+                        <li class="nav-item mr-0 pr-0">
+                            <a href="contact.html" class="nav-link my-2 ml-2 pr-0 mr-0 menu-item">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
-    <main>
-        <div class="contentBlock clearFix">
-            <h1>About Me</h1>
-            <hr class="divider">
-            <img src="images/Headshot.png" alt="Portrait" class="imgLeft">
-            <p>I'm a secular transhumanist, a SF&amp;F enthusiast, player of games both electronic and tabletop, and an
+    <main class="mt-3">
+        <div class="container-sm bg-light border border-muted py-5">
+            <h1 class="text-success font-weight-bold">About Me</h1>
+            <hr class="bg-muted py-3">
+            <img src="images/Headshot.png" alt="Portrait" class="float-left pl-0 pt-0 py-0 pr-3 col-lg-3">
+            <p>I'm a secular transhumanist, a SF&amp;F enthusiast, player of games both electronic and tabletop, and
+                an
                 unrepentant technophile. My pronouns are he/him, and I identify as a cisgender male.
             </p>
             <p>
-                Born in the desert wastes of southern California some three dozen years ago, I spent my formative years
+                Born in the desert wastes of southern California some three dozen years ago, I spent my formative
+                years
                 striving to understand the world around me&mdash;a pursuit that has never ceased since. Migrating to
                 Florida with my family, I adapted to the slightly cooler (though much wetter) climate only under
                 protest. Retreating from the unblinking gaze of the daystar, I dedicated myself to intellectual
@@ -42,23 +65,28 @@
                 computers for myself and my friends, engaging in mild-to-moderate hardware modding where needed to
                 achieve the desired result. I have a strong interest in computer games of many sorts, with a special
                 focus on Roleplaying games. Tabletop roleplaying games are another passion of mine, and I have both
-                participated in and run dozens of games over the years. I greatly enjoy creative visual storytelling,
-                and have a special passion for anime and manga. I also enjoy well-written speculative fiction, with my
+                participated in and run dozens of games over the years. I greatly enjoy creative visual
+                storytelling,
+                and have a special passion for anime and manga. I also enjoy well-written speculative fiction, with
+                my
                 favorite stories being ones that serve equally well as entertainment and education.
             </p>
-            <p> I live underneath one of the primary inbound glidepaths for Orlando International Airport, close enough
+            <p> I live underneath one of the primary inbound glidepaths for Orlando International Airport, close
+                enough
                 that trying to enjoy a nap&mdash;or even an uninterrupted conversation&mdash;in my back yard is an
                 exercise in futility most days.
             </p>
             <p>
-                My dream job is something that lets me bend my talents with technology toward the goal of promoting the
+                My dream job is something that lets me bend my talents with technology toward the goal of promoting
+                the
                 flourishing of sapient life across the planet, across the solar system, and beyond (if I get really
                 lucky).
             </p>
         </div>
     </main>
-    <footer>
-        <p>Copyright 2019 Will Halstead</p>
+    </div>
+    <footer class="container-fluid bg-dark text-light m-0 p-0 fixed-bottom border-top border-success">
+        <p class="navbar-text text-center col-sm-12">Copyright 2019 Will Halstead</p>
     </footer>
 </body>
 
